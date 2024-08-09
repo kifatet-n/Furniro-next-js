@@ -1,11 +1,15 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import Hero from "@/components/screens/home/hero-section/Hero";
+import OurProduct from "@/components/screens/home/our product -section/OurProduct";
+import TheRange from "@/components/screens/home/therange-section/TheRange";
+
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-     
-       
-    </main>
-  );
+    <>
+    <Hero/>
+    <TheRange/>
+    <OurProduct/>
+    </>
+  )
 }

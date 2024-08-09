@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 const menuData = [
     {title: "Home", 
-     url: "/home" 
+     url: "/" 
     },
     {title: "Shop",
      url: "/shop"
