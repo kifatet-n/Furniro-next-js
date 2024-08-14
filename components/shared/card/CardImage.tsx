@@ -1,14 +1,15 @@
 import Image from "next/image";
 import React from "react";
+import Cardtag from "./Cardtag";
 
-function CardImage() {
+function CardImage(cardData) {
+
   return (
     <div className="relative">
-      <div className="bg-red-500 text-white w-11 h-11 rounded-full flex items-center justify-center absolute top-6 right-6 z-10">
-        -50%
-      </div>
+      <Cardtag tags={cardData.tags}/>
+
       <div className="h-[301px] relative">
-        <Image src="image/card-images/Syltherine.svg" alt="" fill />
+        <Image src={cardData.src} alt={cardData.alt} fill />
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ import Action from './Action'
 
 function Header() {
   return (
-    <div className='flex h-[100px] items-center justify-between bg-white px-[100px]'>
+    <div className=' h-[100px] flex items-center  justify-between gap-x-3 lg:justify-between bg-white px-[100px]'>
         <div className='flex'>
         <Link href ="/">
         <Image
@@ -16,7 +16,7 @@ function Header() {
         alt=""
         />
         </Link>
-        <Link href ="/" className=''>Funirio</Link>
+        <Link href ="/" className='font-bold'>Furniro</Link>
         </div>
         
         <Nav/>

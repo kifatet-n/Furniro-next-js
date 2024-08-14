@@ -1,19 +1,13 @@
 import React from "react";
 import TheRangeListItem from "./TheRangeListItem";
 const TheRangeData = [
-  { src: "./diningimage.svg", title: "Dining" },
-  { src: "./livingimage.svg", title: "Living" },
-  { src: "/bedroomimage.svg", title: "Bedroom" },
+  { src: "./image/diningimage.svg", title: "Dining" },
+  { src: "./image/livingimage.svg", title: "Living" },
+  { src: "./image/bedroomimage.svg", title: "Bedroom" },
 ];
 
 function TheRangeList() {
-  return (
-    <div>
-      {TheRangeData.map((data, index) => (
-        <TheRangeListItem item={data} key={index} />
-      ))}
-    </div>
-  );
+  return TheRangeData.map((item) => <TheRangeListItem item={item} />);
 }
 
 export default TheRangeList;

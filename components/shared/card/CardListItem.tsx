@@ -4,7 +4,7 @@ import CardFooter from './CardFooter'
 
 function CardListItem() {
   return (
-    <div >
+    <div className='' >
         <CardImage/>
         <CardFooter/>
     </div>

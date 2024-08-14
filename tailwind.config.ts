@@ -10,6 +10,20 @@ const config = {
 	],
   prefix: "",
   theme: {
+    colors: {
+
+      orange:`#B88E2F`,
+      lightOrange1:`#FFF3E3`,
+      lightOrange2:`#FCF8F3`,
+      red:`#E97171`,
+      blue:`#2EC1AC`,
+      light:`#9F9F9F`,
+      gray:`#F4F5F7`,
+      white:`#FFFFFF`,
+
+    },
+
+  
     container: {
       center: true,
       padding: "2rem",
@@ -28,7 +42,7 @@ const config = {
           'footer-texture': "url('/img/footer-texture.png')",
         },
         foreground: "hsl(var(--foreground))",
-        primary: {
+        primary: { 
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },

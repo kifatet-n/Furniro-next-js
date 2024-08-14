@@ -4,9 +4,9 @@ import React from 'react'
 
 function Action() {
   return (
-    <div className='flex gap-x-10 max-sm:gap-x-2'>
+    <div className='flex gap-x-1 lg:gap-x-5'>
         <Link href="/">
-        <Image
+        <Image className='flex'
         src="/image/account.svg"
         width={20}
         height={20}
@@ -14,7 +14,7 @@ function Action() {
         />
         </Link>
         <Link href="/">
-        <Image className='max-sm:hidden'
+        <Image className='hidden lg:flex'
         src="/image/search.svg"
         width={20}
         height={20}
@@ -22,7 +22,7 @@ function Action() {
         />
         </Link>
         <Link href="/">
-        <Image className='max-sm:hidden'
+        <Image className='hidden lg:flex'
         src="/image/fav.svg"
         width={20}
         height={20}
@@ -38,8 +38,8 @@ function Action() {
         />
         </Link>
         <Link href="/">
-        <Image className='flex md:hidden'
-        src="/image/hamburger.svg"
+        <Image className='flex lg:hidden'
+        src="image/header-images/Hamburger.svg" 
         width={20}
         height={20}
         alt=""

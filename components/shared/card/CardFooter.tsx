@@ -1,13 +1,15 @@
 import React from "react";
 
-function CardFooter() {
+function CardFooter(cardData) {
+  
   return (
-    <div>
-      <h4>title</h4>
-      <p>desc</p>
-      <p>price</p>
+    <div className="bg-red-600">
+      <h4>{cardData.title}</h4>
+      <p>{cardData.category}</p>
+      <p>{cardData.price}</p>
     </div>
   );
 }
-
+ 
 export default CardFooter;
+

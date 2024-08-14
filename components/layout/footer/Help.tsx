@@ -9,7 +9,7 @@ const helpData =[
 function Help() {
   return (
     <div className='flex flex-col gap-y-8'>
-    <p className='text-slate-500'>Help</p>
+    <p className='text-light'>Help</p>
     <ul className='flex flex-col gap-y-7'>
     {helpData.map((item,index)=>(
         <li key={index}><Link href={item.url}></Link>{item.title}</li>

@@ -10,7 +10,7 @@ const menuData = [
 function Menu() {
   return (
     <div className="flex flex-col gap-y-8">
-    <p className="text-slate-500">Links</p>
+    <p className="text-light">Links</p>
     <ul className="flex flex-col gap-y-7">
       {menuData.map((item, index) => (
         <li key={index}>
