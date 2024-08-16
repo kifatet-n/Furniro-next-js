@@ -1,15 +1,16 @@
 import React from "react";
 
-function CardFooter(cardData) {
-  
+function CardFooter({ data }) {
   return (
-    <div className="bg-red-600">
-      <h4>{cardData.title}</h4>
-      <p>{cardData.category}</p>
-      <p>{cardData.price}</p>
+    <div className="p-5 bg-gray ">
+      <h4 className="font-semibold py-1">{data.title}</h4>
+      <p className="py-1 text-gray2 font-medium">{data.category}</p>
+      <div className="flex justify-between">
+        <p className="py-1 font-semibold">{data.price1}</p>
+        <p className="">{data.price2}</p>
+      </div>
     </div>
   );
 }
- 
-export default CardFooter;
 
+export default CardFooter;

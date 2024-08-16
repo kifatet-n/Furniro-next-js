@@ -19,7 +19,9 @@ const config = {
       blue:`#2EC1AC`,
       light:`#9F9F9F`,
       gray:`#F4F5F7`,
+      gray2:`898989`,
       white:`#FFFFFF`,
+
 
     },
 

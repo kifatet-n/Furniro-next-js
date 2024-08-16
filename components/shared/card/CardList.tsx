@@ -1,10 +1,10 @@
 import React from "react";
 import CardListItem from "./CardListItem";
 
-function CardList() {
+function CardList({cardData}) {
   return ( 
     <div>
-      <CardListItem />
+      <CardListItem data={cardData} />
     </div>
   );
 }

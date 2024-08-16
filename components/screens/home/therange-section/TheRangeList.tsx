@@ -7,7 +7,7 @@ const TheRangeData = [
 ];
 
 function TheRangeList() {
-  return TheRangeData.map((item) => <TheRangeListItem item={item} />);
+  return TheRangeData.map((item, index) => <TheRangeListItem item={item} key={index}  />);
 }
 
 export default TheRangeList;

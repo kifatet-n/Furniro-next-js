@@ -2,15 +2,16 @@ import Image from "next/image";
 import React from "react";
 import Cardtag from "./Cardtag";
 
-function CardImage(cardData) {
 
+function CardImage({ data }) {
   return (
     <div className="relative">
-      <Cardtag tags={cardData.tags}/>
+      <Cardtag tags={data.tags} />
 
-      <div className="h-[301px] relative">
-        <Image src={cardData.src} alt={cardData.alt} fill />
+      <div className="h-[300px] relative">
+        <Image src={data.src} alt={data.alt} fill />
       </div>
+      
     </div>
   );
 }
