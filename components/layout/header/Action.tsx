@@ -29,7 +29,7 @@ function Action() {
         alt=""
         />
         </Link>
-        <Link href="/">
+        <Link href="/cart">
         <Image
         src="/image/basket.svg"
         width={20}

@@ -7,7 +7,7 @@ function CardFooter({ data }) {
       <p className="py-1 text-gray2 font-medium">{data.category}</p>
       <div className="flex justify-between">
         <p className="py-1 font-semibold">{data.price1}</p>
-        <p className="">{data.price2}</p>
+        <p className="line-through">{data.price2}</p>
       </div>
     </div>
   );

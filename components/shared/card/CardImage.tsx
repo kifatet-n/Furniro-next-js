@@ -9,7 +9,7 @@ function CardImage({ data }) {
       <Cardtag tags={data.tags} />
 
       <div className="h-[300px] relative">
-        <Image src={data.src} alt={data.alt} fill />
+        <Image src={data.src} alt={data.alt} fill/>
       </div>
       
     </div>

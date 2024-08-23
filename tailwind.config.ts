@@ -15,11 +15,13 @@ const config = {
       orange:`#B88E2F`,
       lightOrange1:`#FFF3E3`,
       lightOrange2:`#FCF8F3`,
+      lightOrange3:`#FAF3EA`,
+      lightOrange4:`#F9F1E7`,
       red:`#E97171`,
       blue:`#2EC1AC`,
       light:`#9F9F9F`,
       gray:`#F4F5F7`,
-      gray2:`898989`,
+      gray2:`#898989`,
       white:`#FFFFFF`,
 
 
