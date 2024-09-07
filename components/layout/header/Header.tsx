@@ -6,22 +6,22 @@ import Action from './Action'
 
 function Header() {
   return (
-    <div className=' h-[100px] flex items-center  justify-between gap-x-3 lg:justify-between bg-white px-[100px]'>
+    <header className=' h-[100px] flex items-center  justify-between gap-x-3 lg:justify-between bg-white px-[100px]'>
         <div className='flex'>
         <Link href ="/">
         <Image
         src= "/image/logo.svg"
-        width={30}
-        height={30}
+        width={50}
+        height={32}
         alt=""
         />
         </Link>
-        <Link href ="/" className='font-bold'>Furniro</Link>
+        <Link href ="/" className='font-bold text-[32px]'>Furniro</Link>
         </div>
         
         <Nav/>
         <Action/>
-    </div>
+    </header>
   )
 }
 

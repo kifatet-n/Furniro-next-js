@@ -25,12 +25,12 @@ const InfoData = [
 
 function InfoList() {
   return (
-    <div className="px-10 py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
+    <div className=" px-10 py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
       {InfoData.map((item,index)=>(
         <InfoListItem data={item} key={index}/>
       ))}
       
-    </div>
+     </div>
   );
 }
 

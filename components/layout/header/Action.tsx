@@ -4,7 +4,7 @@ import React from 'react'
 
 function Action() {
   return (
-    <div className='flex gap-x-1 lg:gap-x-5'>
+    <div className='flex gap-1 lg:gap-x-[45px]'>
         <Link href="/">
         <Image className='flex'
         src="/image/account.svg"

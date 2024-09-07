@@ -16,9 +16,9 @@ const menuData = [
 ]
 function Nav() {
   return (
-    <ul className='hidden lg:flex gap-10'>
+    <ul className='hidden lg:flex gap-x-[75px]'>
         {menuData.map((item,index)=>(
-            <li key ={index}>
+            <li key ={index} className='text-[16px] '>
                 <Link href={item.url}>{item.title}</Link>
             </li>
         ))}

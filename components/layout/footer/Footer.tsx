@@ -6,10 +6,10 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <>
-    <div className="flex h-[300px] px-[100px] py-[30px] justify-between max-md:flex-col">
+    <footer>
+    <div className="flex h-[300px] px-[100px] py-[30px] justify-between flex-col  md:flex-row">
       <div className="flex flex-col gap-y-8">
-        <Link href = "/" className="font-bold">Funiro.</Link>
+        <Link href = "/" className="font-bold text-[24px]">Funiro.</Link>
         <p className="text-light">
           400 University Drive Suite 200 Coral <br /> Gables, <br />
           FL 33134 USA
@@ -24,7 +24,7 @@ function Footer() {
     <hr />
     <p className=" px-[100px] py-5">2024 furino. All rights reverved</p>
     </div>
-    </>
+    </footer>
   );
 }
 

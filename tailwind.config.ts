@@ -23,6 +23,7 @@ const config = {
       gray:`#F4F5F7`,
       gray2:`#898989`,
       white:`#FFFFFF`,
+      black:`#000000`
 
 
     },
