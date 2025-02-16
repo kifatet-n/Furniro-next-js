@@ -11,12 +11,12 @@ function Header() {
         <Link href ="/">
         <Image
         src= "/image/logo.svg"
-        width={50}
+        width={32}
         height={32}
         alt=""
         />
         </Link>
-        <Link href ="/" className='font-bold text-[32px]'>Furniro</Link>
+        <Link href ="/" className='text-lg font-bold text-[32px]'>Furniro</Link>
         </div>
         
         <Nav/>

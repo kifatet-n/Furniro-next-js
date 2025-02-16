@@ -4,7 +4,7 @@ import BasketRight from './BasketRight'
 
 function Basket() {
   return (
-    <div className='flex flex-col-reverse md:flex-row gap-y-[30px] px-[100px] py-[70px] gap-x-[30px]'>
+    <div className=' flex flex-col-reverse px-5 md:flex-row md:px-[100px] gap-y-[30px] py-[70px] gap-x-[30px]'>
         <BasketLeft/>
         <BasketRight/>
     </div>

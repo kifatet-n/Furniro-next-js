@@ -4,7 +4,7 @@ import Image from "next/image";
 function Hero() {
   return (
     <div className="relative">
-      <div className="px-5 py-10 absolute bg-lightOrange1 z-10 top-32 right-16 h-[443px] w-[643px]">
+      <div className="px-5 py-10 absolute bg-lightOrange1 z-10 top-32 right-16  h-[443px] w-[643px]">
         <p>New Arial</p>
         <h2 className="font-bold text-[56px] ">Discover Our New Collection</h2>
         <p className="py-10">

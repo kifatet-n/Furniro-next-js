@@ -12,6 +12,9 @@ const menuData = [
     },
     {title: "Contact",
      url: "/contact"
+    },
+    {title: "Comments",
+    url:"/comments"
     }
 ]
 function Nav() {

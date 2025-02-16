@@ -44,9 +44,9 @@ function BasketLeft() {
   };
 
   return (
-    <div className="w-full md:w-2/3 ">
-      <div className="bg-lightOrange4  flex  font-bold  gap-x-24 px-[146px] py-[16px]">
-        <p className="font-">Product</p>
+    <div className=" w-full md:w-2/3 ">
+      <div className="bg-lightOrange4 hidden  md:flex font-bold  gap-x-24 px-[146px] py-[16px]">
+        <p className="">Product</p>
         <p>Price</p>
         <div className="flex gap-x-10">
         <p className="">Quantity</p>
@@ -58,7 +58,7 @@ function BasketLeft() {
       <div className="py-10">
         {products.map((product) => (
           <div key={product.id} className="flex py-10">
-            <div className="flex  items-center">
+            <div className="md:flex  items-center">
               <div className="w-[90px] h-[100px] relative">
                 <Image className="bg-lightOrange4 rounded-md"
                   src={product.src}
@@ -70,7 +70,7 @@ function BasketLeft() {
             
               <div className="pl-12 text-gray2">
                 <p>{product.name}</p>
-              </div>
+                    </div>
               <div className="pl-16 text-gray2">
                 <p>Rs:{product.price}</p>
               </div>
@@ -94,8 +94,8 @@ function BasketLeft() {
           </div>
         ))}
       </div>
+
     </div>
   );
 }
-
 export default BasketLeft;
